@@ -17,4 +17,7 @@ clear 清屏
 	git commit -m "添加提交描述" #对提交的文件进行解释
 	git #查看当前版本之前的所有版本
 	git checkout 文件名称 #把暂存区的文件覆盖操作空间的文件
+	git reset --hard 提交id #把仓库中恢复到操作空间 
+	git reflog 
 	
+	.gitignore
